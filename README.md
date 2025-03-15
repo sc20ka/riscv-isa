@@ -39,7 +39,7 @@ If you want to run the project locally or contribute to its development:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/your-repository-name.git  # Replace with your repo URL
+    git clone https://github.com/sc20ka/riscv-isa
     cd your-repository-name
     ```
 
