@@ -1,0 +1,137 @@
+{
+    "bases": {
+        "RV32I": {
+            "name": "RV32I",
+            "description": "Base integer instruction set, 32-bit",
+            "version": "2.1",
+            "status": "Ratified",
+            "instruction_count": 40
+        },
+        "RV32E": {
+            "name": "RV32E",
+            "description": "Base integer instruction set (embedded), 32-bit, 16 registers",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": 40
+        },
+        "RV64I": {
+            "name": "RV64I",
+            "description": "Base integer instruction set, 64-bit",
+            "version": "2.1",
+            "status": "Ratified",
+            "instruction_count": 52
+        },
+        "RV64E": {
+            "name": "RV64E",
+            "description": "Base integer instruction set (embedded), 64-bit",
+            "version": "2.0",
+            "status": "Ratified",
+             "instruction_count": 52
+        },
+        "RV128I": {
+            "name": "RV128I",
+            "description": "Base integer instruction set, 128-bit",
+            "version": "1.7",
+            "status": "Open",
+            "instruction_count": 64
+        }
+    },
+    "extensions": {
+        "M": {
+            "name": "M",
+            "description": "Standard extension for integer multiplication and division",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 8,
+                "RV64": 13
+            }
+        },
+        "A": {
+            "name": "A",
+            "description": "Standard extension for atomic instructions",
+            "version": "2.1",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 11,
+                "RV64": 22
+            }
+        },
+        "F": {
+            "name": "F",
+            "description": "Standard extension for single-precision floating-point",
+            "version": "2.2",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 26,
+                "RV64": 30
+            }
+        },
+        "D": {
+            "name": "D",
+            "description": "Standard extension for double-precision floating-point",
+            "version": "2.2",
+            "status": "Ratified",
+             "instruction_count": {
+                "RV32": 26,
+                "RV64": 32
+            }
+        },
+        "Zicsr": {
+            "name": "Zicsr",
+            "description": "Control and status register (CSR) instructions",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": 6
+        },
+        "Zifencei": {
+            "name": "Zifencei",
+            "description": "Instruction-fetch fence",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": 1
+        },
+        "G": {
+          "name": "G",
+          "description": "Shorthand for the IMAFD_Zicsr_Zifencei base and extensions",
+          "version": "-",
+          "status": "-",
+          "instruction_count": null
+        },
+		"Q": {
+            "name": "Q",
+            "description": "Standard extension for quad-precision floating-point",
+            "version": "2.2",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 28,
+                "RV64": 32
+            }
+        },
+		"C": {
+            "name": "C",
+            "description": "Standard extension for compressed instructions",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": 40
+        },
+		"B": {
+            "name": "B",
+            "description": "Standard extension for bit manipulation",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 29,
+                "RV64": 41
+            }
+        },
+       "Zam": {
+            "name": "Zam",
+            "description": "Misaligned atomics",
+            "version": "0.1",
+            "status": "Open",
+            "instruction_count": null
+        }
+
+    }
+}
