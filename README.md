@@ -11,7 +11,7 @@ This interactive web tool allows you to explore the RISC-V Instruction Set Archi
 
 The tool supports a wide variety of standard RISC-V extensions, covering integer operations, floating-point arithmetic, atomic operations, compressed instructions, and "Z" extensions.
 
-**Try it out!** [https://yourusername.github.io/your-repository-name/](https://yourusername.github.io/your-repository-name/)  *(Replace this with your actual GitHub Pages URL)*
+**Try it out!** [https://sc20ka.github.io/riscv-isa/](https://sc20ka.github.io/riscv-isa/)  *(Replace this with your actual GitHub Pages URL)*
 
 ## Features
 
@@ -22,7 +22,7 @@ The tool supports a wide variety of standard RISC-V extensions, covering integer
 
 ## How to Use
 
-1.  **Go to the website:** [https://yourusername.github.io/your-repository-name/](https://yourusername.github.io/your-repository-name/) *(Remember to update this link!)*
+1.  **Go to the website:** [https://sc20ka.github.io/riscv-isa/](https://sc20ka.github.io/riscv-isa/) *(Remember to update this link!)*
 2.  **Enter a RISC-V ISA String:** Type the ISA string into the input field (e.g., `RV32IMAC`, `RV64GC`, `Zicsr_Zam`).
 3.  **Click "Get Details":**  The tool will parse the string and display the relevant information.
 
