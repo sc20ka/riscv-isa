@@ -40,7 +40,7 @@ If you want to run the project locally or contribute to its development:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/sc20ka/riscv-isa
-    cd your-repository-name
+    cd riscv-isa
     ```
 
 2.  **Open `index.html` in your browser:**  You can simply double-click the `index.html` file.  No local server is required for this simple project.
