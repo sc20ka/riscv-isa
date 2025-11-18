@@ -26,13 +26,13 @@
             "description": "Base integer instruction set (embedded), 64-bit",
             "version": "2.0",
             "status": "Ratified",
-             "instruction_count": 52
+            "instruction_count": 52
         },
         "RV128I": {
             "name": "RV128I",
             "description": "Base integer instruction set, 128-bit",
             "version": "1.7",
-            "status": "Open",
+            "status": "Ratified",        // изменил с Open на Ratified — оно уже давно в ratified spec
             "instruction_count": 64
         }
     },
@@ -72,7 +72,7 @@
             "description": "Standard extension for double-precision floating-point",
             "version": "2.2",
             "status": "Ratified",
-             "instruction_count": {
+            "instruction_count": {
                 "RV32": 26,
                 "RV64": 32
             }
@@ -98,7 +98,7 @@
           "status": "-",
           "instruction_count": null
         },
-		"Q": {
+        "Q": {
             "name": "Q",
             "description": "Standard extension for quad-precision floating-point",
             "version": "2.2",
@@ -108,14 +108,14 @@
                 "RV64": 32
             }
         },
-		"C": {
+        "C": {
             "name": "C",
             "description": "Standard extension for compressed instructions",
             "version": "2.0",
             "status": "Ratified",
             "instruction_count": 40
         },
-		"B": {
+        "B": {
             "name": "B",
             "description": "Standard extension for bit manipulation",
             "version": "1.0",
@@ -125,13 +125,77 @@
                 "RV64": 41
             }
         },
-       "Zam": {
+        "Zam": {
             "name": "Zam",
             "description": "Misaligned atomics",
             "version": "0.1",
             "status": "Open",
             "instruction_count": null
+        },
+        "V": {
+            "name": "V",
+            "description": "Standard Vector Extension",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": null
+        },
+        "H": {
+            "name": "H",
+            "description": "Hypervisor Extension",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 12,
+                "RV64": 14
+            }
+        },
+        "Zfh": {
+            "name": "Zfh",
+            "description": "Half-Precision Floating-Point Extension",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 26,
+                "RV64": 30
+            }
+        },
+        "Zihintpause": {
+            "name": "Zihintpause",
+            "description": "PAUSE hint instruction",
+            "version": "2.0",
+            "status": "Ratified",
+            "instruction_count": 1
+        },
+        "Zmmul": {
+            "name": "Zmmul",
+            "description": "Integer multiplication without division (subset of M)",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": {
+                "RV32": 4,
+                "RV64": 5
+            }
+        },
+        "Zk": {
+            "name": "Zk",
+            "description": "Standard Scalar Cryptography Extension (Zk = Zkn + Zkr + Zbkb + …)",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": null
+        },
+        "Zicbom": {
+            "name": "Zicbom",
+            "description": "Cache-Block Management Operations (cbo.clean, cbo.flush, cbo.inval)",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": 3
+        },
+        "Zicboz": {
+            "name": "Zicboz",
+            "description": "Cache-Block Zero Operation (cbo.zero)",
+            "version": "1.0",
+            "status": "Ratified",
+            "instruction_count": 1
         }
-
     }
 }
